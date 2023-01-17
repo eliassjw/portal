@@ -1,0 +1,34 @@
+#panelPage #header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 20px;
+}
+#panelPage #pageTitle{
+    font-family: raleway;
+    font-weight: 400;
+    font-size: 24px;
+}
+#panelPage #search{
+    position: relative;
+    width: 250px;
+}
+#panelPage #search label{
+    position: absolute;
+    font-size: 22px;
+    left: 10px;
+    top: calc(50% + 2px); transform: translateY(-50%);
+}
+#panelPage #search label svg{
+    stroke: gray;
+}
+#panelPage #search input {
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    padding: 0 40px;
+    font-size: 16px;
+}

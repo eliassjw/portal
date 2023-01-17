@@ -1,0 +1,21 @@
+._404{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+#_404{white-space: pre}
+#_404::before{
+    content: '404!';
+    color: darkorange;
+    font-size: 128px;
+    font-weight: bold;
+    font-family: '404_2';
+}
+#_404::after{
+    content: '\A\A Essa página não foi encontrada.\AVerifique se você digitou o endereço correto ou contate o suporte.';
+    color: gray;
+    font-size: 28px;
+}

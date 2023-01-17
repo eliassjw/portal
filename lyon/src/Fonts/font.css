@@ -1,0 +1,68 @@
+
+@font-face {
+    font-family: Montserrat;
+    src: url(Montserrat-VariableFont_wght.ttf);
+    font-weight: 100;
+    font-stretch: normal;
+    line-height: initial;
+    font-optical-sizing: auto;
+}
+@font-face {
+    font-family: poiret;
+    src: url(PoiretOne-Regular.ttf);
+    font-weight: 400;
+    font-stretch: normal;
+    line-height: initial;
+    font-optical-sizing: auto;
+}
+@font-face{
+    font-family: poppins;
+    src: url(Poppins-Light.ttf);
+    font-weight: 300;
+    font-stretch: normal;
+    line-height: initial;
+    font-optical-sizing: auto;
+}
+@font-face{
+    font-family: '404';
+    src: url(RubikDistressed-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: initial;
+}
+@font-face {
+    font-family: '404_2';
+    src: url(RubikMonoOne-Regular.ttf);
+    font-stretch: normal;
+    line-height: initial;
+    font-optical-sizing: auto;
+}
+@font-face{
+    font-family: raleway;
+    src: url(Raleway-VariableFont_wght.ttf);
+    font-weight: 400;
+    font-stretch: normal;
+    line-height: initial;
+    font-optical-sizing: auto;
+}
+@font-face {
+    font-family: madi;
+    src: url(MsMadi-Regular.ttf);
+    font-weight: 400;
+    font-stretch: normal;
+    line-height: initial;
+    font-optical-sizing: auto;
+}
+@font-face {
+    font-family: amatic;
+    src: url(AmaticSC-Regular.ttf);
+    font-weight: 400;
+    font-stretch: normal;
+    line-height: initial;
+    font-optical-sizing: auto;
+}
+@font-face {
+    font-family: amatic-bold;
+    src: url(AmaticSC-Bold.ttf);
+}

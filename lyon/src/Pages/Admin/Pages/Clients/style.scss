@@ -1,0 +1,104 @@
+$boxShadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+
+#clients{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+#clients {
+    #actions{
+        width: 100%;
+        display: flex;
+        justify-content: right;
+        padding: 20px;
+    }
+    #filter{
+        background: white;
+        overflow: hidden;
+        width: 90px;
+        height: 40px;
+        border: 1px solid lightgray;
+        box-shadow: $boxShadow;
+    }
+    #filter #filter_options{
+        padding: 0 10px;
+    }
+    #filter button{
+        background: transparent;
+        border: none;
+        width: 100%;
+        height: 40px;
+        cursor: pointer;
+        font-size: 14px;
+    }
+    #filter button:hover{
+        background-color: dodgerblue;
+        color: white;
+    }
+    table {
+        width: 95%;
+        border: 1px solid rgb(255, 231, 190);
+    }
+    tr{
+        border-radius: 10px;
+    }
+    th{
+        height: 40px;
+        background: rgb(255, 237, 206);
+        color: black;
+    }
+    td{
+        height: 40px;
+        color: black;
+        padding: 5px 20px;
+        font-size: 16px;
+    }
+    td button {
+        border: none;
+        background-color: transparent;
+        color: lightgray;
+        font-size: 22px;
+        margin: 0 5px;
+        cursor: pointer;
+    }
+    td button.edit_button:hover{
+        color: darkorange;
+    }
+    td button.delete_button:hover{
+        color: red;
+    }
+    td.verifiedEmail{
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    td.verifiedEmail::after{
+        content: '';
+        background-color: rgba(14, 169, 14, 0.7);
+        border-radius: 100%;
+        width: 10px;
+        height: 10px;
+        color: white;
+        display: flex;
+    }
+    #registeredClients{
+        width: 95%;
+        height: auto;
+        max-height: 800px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        box-shadow: $boxShadow;
+        padding: 20px;
+        border: 1px solid orange;
+    }
+    #registeredClients h2{
+        margin-bottom: 30px;
+        align-self: flex-start;
+    }
+}
+tr:nth-child(odd){
+    background-color: rgb(242, 242, 242);
+}

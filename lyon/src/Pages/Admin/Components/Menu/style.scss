@@ -1,0 +1,80 @@
+$menuWidth: 280px;
+
+#menu{
+    height: 100%;
+    width: $menuWidth;
+    background: #f9f9f9;
+    padding: 20px 0;
+    user-select: none;
+    flex-shrink: 0;
+    position: relative;
+}
+#menuTitle{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+}
+#menuTitle #logo{
+    color: black;
+    margin: 0;
+}
+#menuTitle #subTitle{
+    font-family: raleway;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+#menuOptions, #lastOptions {
+    .option{
+        width: 85%;
+        margin-left: 7.5%;
+        margin-bottom: 5px;
+        border-radius: 10px;
+        height: 50px;
+        padding-left: 20px;
+        display: flex;
+        align-items: center;
+        color: gray;
+        cursor: pointer;
+        font-size: 16px;
+        font-family: Arial;
+        border: none;
+        background: transparent;
+    }
+    #selected.option {
+        background-color: rgb(255, 215, 147);
+        color: black;
+    }
+    #selected.option:hover {
+        background-color: rgb(238, 203, 143);
+    }
+    .option:hover{
+        background-color: rgb(238, 213, 167);
+        color: rgb(10, 10, 10);
+    }
+    .option .menuIcon{
+        font-size: 26px;
+        margin-right: 10px;
+        height: 26px; width: 26px;
+    }
+    .option:nth-child(2) .menuIcon{
+        margin-top: -5px;
+    }
+}
+
+#lastOptions{
+    position: absolute;
+    width: 100%;
+    bottom: 20px;
+}
+#lastOptions {
+    #exit{
+        // background-color: rgba(255, 0, 0, 0.1);
+        color: red;
+    }
+    #exit:hover{
+        color: white;
+        background-color: rgba(255, 0, 0, 0.7);
+    }
+}
